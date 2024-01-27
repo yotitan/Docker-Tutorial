@@ -1,0 +1,8 @@
+docker build -f Dockerfile -t docker_tutorial .
+                <filename>    <image_name>    <filepath>
+
+docker run -p <local>:<docker> -v <local_abs_path>:<docker_abs_path> -ti docker_tutorial /bin/bash -c "python3 hello_world.py"
+           <ports>             <mount_volume>                           <image_name>    <command>
+
+gcloud init
+gcloud app deploy
